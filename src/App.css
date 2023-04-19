@@ -4,7 +4,7 @@
 }
 
 .App {
-  padding: 20px 100px;
+  padding: 20px 20px;
   display: flex;
   flex-direction: column;
   gap: 20px;
@@ -23,6 +23,15 @@
     justify-content: space-between;
     flex-wrap: wrap;
     column-gap: 20px;
+}
+
+.search-and-sort-wrap {
+    display: flex;
+    justify-content: space-between;
+}
+
+input.search.text {
+    flex-grow: 0;
 }
 
 .ant-collapse>.ant-collapse-item >.ant-collapse-header {
